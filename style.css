@@ -59,6 +59,10 @@ section {
    margin-left: 100px;
    
 }
+ a:hover {
+   color: black;
+   background-color:purple;
+}
 .biography {
    background-image: url(images/biography-bg.png);
    background-size:cover ;
@@ -157,3 +161,14 @@ h3 {
    text-align: center;
    margin-top: 100px;
 }
+.grow img{
+   transition: 2s ease;
+   }
+   
+   .grow img:hover{
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2);
+   transition: 1s ease;
+   }
+   
